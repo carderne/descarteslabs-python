@@ -1,6 +1,6 @@
 import responses
 import pytest
-from mock import patch
+from unittest.mock import patch
 
 from .base import ClientTestCase
 from ..catalog_base import DocumentState

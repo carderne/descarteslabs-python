@@ -1,7 +1,7 @@
 import json
 
 import hypothesis.strategies as st
-import mock
+from unittest import mock
 import pytest
 from descarteslabs.common.proto import workflow_pb2
 from hypothesis import given

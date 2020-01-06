@@ -1,6 +1,6 @@
 import pytest
 import unittest
-import mock
+from unittest import mock
 import os.path
 import shapely.geometry
 import numpy as np

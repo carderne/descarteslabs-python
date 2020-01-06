@@ -4,7 +4,7 @@ import datetime
 from descarteslabs.scenes import geocontext, search
 from shapely.geometry import shape
 
-import mock
+from unittest import mock
 from .mock_data import _metadata_search, _metadata_get_bands_by_product
 
 

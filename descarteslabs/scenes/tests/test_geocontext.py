@@ -1,6 +1,6 @@
 import pytest
 import unittest
-import mock
+from unittest import mock
 import multiprocessing
 import concurrent.futures
 import copy

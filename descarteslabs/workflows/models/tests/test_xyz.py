@@ -4,7 +4,7 @@ import json
 from six.moves import queue
 
 import grpc
-import mock
+from unittest import mock
 import pytest
 from descarteslabs.common.proto import xyz_pb2
 

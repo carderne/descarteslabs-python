@@ -1,5 +1,5 @@
 import pytest
-import mock
+from unittest import mock
 import six
 
 from ...core import _resolve_lambdas

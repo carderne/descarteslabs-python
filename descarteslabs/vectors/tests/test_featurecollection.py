@@ -24,7 +24,7 @@ from descarteslabs.vectors import (
     InvalidQueryException,
 )
 from descarteslabs.common.dotdict import DotDict
-import mock
+from unittest import mock
 
 from .fixtures import POINT
 
