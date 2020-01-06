@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import unittest
-from unittest import mock
+import mock
 import os
 from six import StringIO
 from descarteslabs.client.scripts.cli import parser, handle

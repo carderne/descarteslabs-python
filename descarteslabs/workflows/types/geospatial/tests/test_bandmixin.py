@@ -1,5 +1,5 @@
 import pytest
-from unittest import mock
+import mock
 
 from ... import Proxytype, List, Dict, Tuple, Str, Int
 from .. import Image, ImageCollection

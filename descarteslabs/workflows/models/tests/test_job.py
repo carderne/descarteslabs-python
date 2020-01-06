@@ -1,7 +1,7 @@
 import json
 
 import pytest
-from unittest import mock
+import mock
 import pyarrow as pa
 import responses
 

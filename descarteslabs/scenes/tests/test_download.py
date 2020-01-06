@@ -1,6 +1,6 @@
 import pytest
 import unittest
-from unittest import mock
+import mock
 import sys
 import six
 

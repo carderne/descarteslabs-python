@@ -1,5 +1,5 @@
 import pytest
-from unittest import mock
+import mock
 import six
 
 from descarteslabs import scenes

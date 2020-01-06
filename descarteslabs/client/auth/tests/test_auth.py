@@ -23,7 +23,7 @@ import six
 import responses
 from descarteslabs.client.auth import Auth
 from descarteslabs.client.exceptions import AuthError
-from unittest.mock import patch
+from mock import patch
 
 
 def token_response_callback(request):

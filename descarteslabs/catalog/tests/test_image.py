@@ -1,6 +1,6 @@
 import pytest
 import json
-from unittest.mock import patch
+from mock import patch
 import responses
 import textwrap
 import datetime

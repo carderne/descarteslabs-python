@@ -15,7 +15,7 @@
 import pickle
 import unittest
 
-from unittest import mock
+import mock
 
 from descarteslabs.client.services.service import JsonApiService, Service
 from descarteslabs.client.services.service.service import WrappedSession, requests

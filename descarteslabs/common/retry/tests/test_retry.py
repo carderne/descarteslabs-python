@@ -1,4 +1,4 @@
-from unittest import mock
+import mock
 import pytest
 from .. import Retry, RetryError, truncated_delay_generator
 from ..retry import _DEFAULT_DELAY_INITIAL, _retry

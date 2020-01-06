@@ -2,7 +2,7 @@ from __future__ import division
 
 import pytest
 import unittest
-from unittest import mock
+import mock
 
 import numpy as np
 from descarteslabs.scenes import display

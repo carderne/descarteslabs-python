@@ -18,7 +18,7 @@ import shutil
 import pytest
 import unittest
 import json
-from unittest import mock
+import mock
 
 import descarteslabs.client.addons as addons
 from descarteslabs.client.addons import numpy as np

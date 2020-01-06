@@ -1,7 +1,7 @@
 import six
 import operator
 import pytest
-from unittest import mock
+import mock
 
 from descarteslabs.common.graft import client
 from descarteslabs.common.graft import interpreter

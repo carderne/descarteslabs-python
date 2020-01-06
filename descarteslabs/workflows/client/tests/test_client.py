@@ -1,5 +1,5 @@
 import grpc
-from unittest import mock
+import mock
 import pytest
 
 from descarteslabs.common.retry import Retry

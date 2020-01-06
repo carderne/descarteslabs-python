@@ -1,6 +1,6 @@
 import operator
 import pytest
-from unittest import mock
+import mock
 
 from descarteslabs.common.graft import client, interpreter
 

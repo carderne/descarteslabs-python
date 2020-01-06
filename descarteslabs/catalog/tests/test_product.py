@@ -3,7 +3,7 @@ import pytest
 import responses
 from datetime import datetime
 import textwrap
-from unittest.mock import patch
+from mock import patch
 
 from descarteslabs.client.exceptions import BadRequestError, NotFoundError
 from .base import ClientTestCase
