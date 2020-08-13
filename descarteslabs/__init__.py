@@ -54,9 +54,6 @@ else:
     # By importing cloudpickle here, we avoid a DeprecationWarning
     import cloudpickle
 
-# Turn on deprecation warnings for all API clients
-warnings.simplefilter("always", DeprecationWarning)
-
 # flake8: noqa
 from .client import exceptions
 from .client import services
