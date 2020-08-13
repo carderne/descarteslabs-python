@@ -812,14 +812,22 @@ class Tasks(Service):
         """
         rerun = []
         task_ids = list(itertools.islice(task_id_iterable, self.RERUN_BATCH_SIZE))
+        count = 0
         while task_ids:
+            count += 1
             r = self.session.post(
                 "/groups/{group_id}/tasks/rerun".format(group_id=group_id),
                 json={"task_ids": task_ids, "retry_count": retry_count},
             )
             r.raise_for_status()
             rerun += r.json()["tasks"]
-            task_ids = list(itertools.islice(task_id_iterable, self.RERUN_BATCH_SIZE))
+            task_ids = list(
+                itertools.islice(
+                    task_id_iterable,
+                    count * self.RERUN_BATCH_SIZE,
+                    (count + 1) * self.RERUN_BATCH_SIZE,
+                )
+            )
         return DotList(rerun)
 
     def create_function(
